@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-console.log("Allied Ahmed#0001");
+console.log("TryHard#9999");
 var prefix = "=";
 client.on("message", message => {
 
@@ -18,13 +18,13 @@ client.on("message", message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Script By : Allied Ahmed#0001`);
+      console.log(`Desert Bot- Script By : TryHard#9999`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : Allied Ahmed#0001 ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By :TryHard#9999 ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setStatus("dnd");
-  client.user.setActivity(`Test`, { type: "Watching" });
+  client.user.setActivity(`https://discord.gg/aMJPhGe`, { type: "Watching" });
 });
 
 client.login(process.env.BOT_TOKEN);
